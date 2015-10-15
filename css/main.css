@@ -1,0 +1,105 @@
+/*--header y menú--*/
+
+ul{
+	text-align: center;
+}
+
+li{
+	font-family:'Oswald', serif;
+    display: inline-block;
+    margin: 3% 3% 1.5% 3%
+ }
+
+li:hover{
+	background-color: black;
+	opacity: .2;
+	transition: background-color 0.5s ease
+}
+
+li a{
+	text-decoration: none;
+	color: black
+}
+
+li a:hover{color: white;
+transition: background-color 0.5s ease
+}
+
+/*--header tagline--*/
+
+.imgtag{
+	height:300px;
+	background-size: 100%; 
+	background-image: url("../images/background.jpg");
+}
+
+.logo{
+	padding-top: 50px;	
+	text-align: center;
+}
+
+h1{
+	font-family:'Oswald', serif;
+	letter-spacing: 5px;
+	color:white;
+	margin-bottom: 10px
+}
+
+h5{
+	font-family:Helvetica;
+	color:white;
+}
+
+/*--about me--*/
+
+h3,h3+h5{
+	text-align: center;
+	font-family:'Oswald', serif;
+	color:#B734A6;
+	padding: 10px 0
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 10px;
+	line-height: 1.5em;
+	padding-top: 10px
+}
+
+.img {
+	width: 100%;
+	border-style: double; 
+	border-color: pink;
+	border-radius: 20px
+}
+
+.back{
+	background-image: url("../images/tile1.png");
+	padding: 50px 0 40px 0;
+	margin-bottom: 50px
+}
+
+.kitt{
+	width: 100%;
+	border-style: double;
+	border-width: 5px; 
+	border-color: pink ;
+	border-radius: 100px;
+	margin-top: 20px
+}
+
+/*--pie de página--*/
+
+footer{
+	background-image: url("../images/tile2.png");
+	padding: 50px 0;
+	margin-top: 50px;
+}
+
+
+footer img:hover, section img:hover{
+	opacity: .5
+}
+
+.scrollbar{overflow-y: scroll}
+
